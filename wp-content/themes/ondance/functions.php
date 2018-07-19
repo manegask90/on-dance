@@ -138,3 +138,11 @@ function ondance_get_instagram_photos() {
 
 	return array();
 }
+
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_single_add_to_cart_text' );  // 2.1 +
+
+function woo_custom_single_add_to_cart_text() {
+
+    return __( 'Купити', 'woocommerce' );
+
+}

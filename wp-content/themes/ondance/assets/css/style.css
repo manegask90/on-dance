@@ -861,13 +861,15 @@
 .single-product .variations {
   width: auto !important; }
   .single-product .variations tr:last-child {
-    display: block;
-    margin-top: 86px; }
+    /*display: block;*/
+    /*margin-top: 86px;*/
+  }
     .single-product .variations tr:last-child td {
-      display: block;
-      text-align: left; }
+      /*display: block;*/
+      /*text-align: left; */
+    }
   .single-product .variations tr td.label {
-    padding: 0 !important;
+    /*padding: 0 !important;*/
     margin-bottom: 4px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -965,7 +967,19 @@
     #table-sizes--modal .modal-content .modal-body .sizes-wrapper.three h4 {
       margin-top: 30px;
       margin-bottom: 10px; }
-
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover {
+  padding: 6px;
+  background-color: #000;
+  border-radius: 0;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  padding: 6px;
+  background-color: #000;
+  border-radius: 0;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #000;
+}
 @media (max-width: 479px) {
   .single-product .product .woo-related .related .product {
     width: 100% !important;
